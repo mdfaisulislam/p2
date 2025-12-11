@@ -1,11 +1,16 @@
-@import url('/css/root.css');
-
-.my-bg {
-    background-color: var(--primary-color);
-}
+@import url('root.css');
 
 /* Small device and portrait 320px and up */
-@media (min-width: 320px) {}
+@media (min-width: 320px) {
+    /* header  */
+    .home {
+        background-color: #000 !important;
+    }
+    .home a {
+        color: var(--primary-color);
+        color: #fff;
+    }
+}
 
 /* Small device and portrait 390px and up */
 @media (min-width: 390px) {}
