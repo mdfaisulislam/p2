@@ -1,4 +1,32 @@
 @import url('/css/root.css');
+
 .my-bg {
     background-color: var(--primary-color);
 }
+
+/* Small device and portrait 320px and up */
+@media (min-width: 320px) {}
+
+/* Small device and portrait 390px and up */
+@media (min-width: 390px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+
+/* XXX-Large devices (larger desktops, 1600px and up) */
+@media (min-width: 1600px) {}
+
+/* XXXX-Large devices (larger desktops, 1880px and up) */
+@media (min-width: 1880px) {}

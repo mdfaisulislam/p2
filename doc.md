@@ -1,69 +1,37 @@
-/* import */
-@import url("root.css");
+# p - padding
+# c - complete
+# home (p)
 
-/* all */
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    text-decoration: none !important;
-    text-wrap: wrap;
-}
+## Media {
+    /* Small device and portrait 320px and up */
+    @media (min-width: 320px) {}
 
-/* hover */
-.color-hover:hover {
-    color: var(--primary-color);
-}
-.bg-hover:hover {
-    background-color: var(--primary-color);
-}
+    /* Small device and portrait 390px and up */
+    @media (min-width: 390px) {}
 
-body {
-    user-select: none;
-    background-color: #f4f4f4;
-}
-/* nav */
-/* logo */
-.navbar {
-    background-color: #ffffff;
-}
-.logo {
-    font-size: 25px;
-    font-weight: 800;
-    color: var(--primary-color);
-}
-/* all */
-.btn:active {
-    border-color: transparent !important;
-}
-.form-control:focus {
-    box-shadow: none !important;
-}
-/* font-weight */
-.fw-400 {
-    font-weight: 400 !important;
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {}
+
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {}
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {}
+
+    /* X-Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {}
+
+    /* XX-Large devices (larger desktops, 1400px and up) */
+    @media (min-width: 1400px) {}
+
+    /* XXX-Large devices (larger desktops, 1600px and up) */
+    @media (min-width: 1600px) {}
+
+    /* XXXX-Large devices (larger desktops, 1880px and up) */
+    @media (min-width: 1880px) {}
 }
 
-.fw-500 {
-    font-weight: 500 !important;
-}
-
-.fw-600 {
-    font-weight: 600 !important;
-}
-
-.fw-700 {
-    font-weight: 700 !important;
-}
-
-.fw-800 {
-    font-weight: 800 !important;
-}
-
-.fw-900 {
-    font-weight: 900 !important;
-}
-/* XXX-Large devices (larger desktops, 1600px and up) */
+# /* XXX-Large devices (larger desktops, 1600px and up) */
 @media (min-width: 1600px) {
     .container {
         width: 1500px !important;
@@ -132,7 +100,7 @@ body {
 
 }
 
-/* XXXX-Large devices (larger desktops, 1880px and up) */
+# /* XXXX-Large devices (larger desktops, 1880px and up) */
 @media (min-width: 1880px) {
 
     /* container */
